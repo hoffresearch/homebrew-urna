@@ -3,7 +3,7 @@
 homebrew tap for [urna](https://github.com/hoffresearch/urna).
 
 ```sh
-brew install hoffresearch/urna/urna-cli
+brew install hoffresearch/urna/urna
 urna doctor
 ```
 
