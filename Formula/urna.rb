@@ -1,25 +1,25 @@
 class Urna < Formula
-  desc "sovereign embedded vector database: single-file .urna container with content-addressable citations, offline-first"
+  desc "Offline-first vector database in one file: a .urna container with content-addressable citations, and the urna CLI"
   homepage "https://urna.dev"
-  version "0.5.1"
+  version "0.5.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/hoffresearch/urna/releases/download/v0.5.1/urna-aarch64-apple-darwin.tar.xz"
-      sha256 "66ac06f7e05356a8bda400cca534d76b2c5136b28f4409e8d11a7ac1538a07c7"
+      url "https://github.com/hoffresearch/urna/releases/download/v0.5.3/urna-aarch64-apple-darwin.tar.xz"
+      sha256 "6330eae533643572ff76767775392056a3cb33cdfe97eab6309293595ea0a0e7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hoffresearch/urna/releases/download/v0.5.1/urna-x86_64-apple-darwin.tar.xz"
-      sha256 "7bc27b8001bae4c762cae88898622690e65d73a78e9a2d3a655c4c3f393a42fe"
+      url "https://github.com/hoffresearch/urna/releases/download/v0.5.3/urna-x86_64-apple-darwin.tar.xz"
+      sha256 "0028b9a23970975017b6d300f9b6c271a3a34c40aa20a0b31498befaf2615534"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/hoffresearch/urna/releases/download/v0.5.1/urna-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "cbb76aabf10e47e4cafa14bc282360c40d6142c236b08a3324655c47175cfda4"
+      url "https://github.com/hoffresearch/urna/releases/download/v0.5.3/urna-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "1f611575801971944e1463f66c609529b3a3c463ed60fff92ead10a1be5f5987"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hoffresearch/urna/releases/download/v0.5.1/urna-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "1fbe35dc9b88ba9ab46ed5a4d0304511780fc94d73fbea8797ce62d975dca8e8"
+      url "https://github.com/hoffresearch/urna/releases/download/v0.5.3/urna-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "7ce18056c9ca7dcc72a25d38dec20dc5634af02dd3ed3a7cd024f58a166138d5"
     end
   end
   license "MIT"
