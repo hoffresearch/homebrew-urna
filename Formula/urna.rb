@@ -1,25 +1,25 @@
 class Urna < Formula
   desc "Offline-first vector database in one file: a .urna container with content-addressable citations, and the urna CLI"
   homepage "https://urna.dev"
-  version "0.5.4"
+  version "0.5.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/hoffresearch/urna/releases/download/v0.5.4/urna-aarch64-apple-darwin.tar.xz"
-      sha256 "c6bbbf991c4a37b0e91082bdae6a513cbc73bfb0b4949f3e4b18951285cf1662"
+      url "https://github.com/hoffresearch/urna/releases/download/v0.5.5/urna-aarch64-apple-darwin.tar.xz"
+      sha256 "bc0f4ef94b3bed107d11eb09741715a04c5aa76a14e34d13bbd776d8ae4f9da6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hoffresearch/urna/releases/download/v0.5.4/urna-x86_64-apple-darwin.tar.xz"
-      sha256 "7d937b32f36a2c9ed5fbcbaedac099514a2be777dc1161bb0458a6cfe76037e7"
+      url "https://github.com/hoffresearch/urna/releases/download/v0.5.5/urna-x86_64-apple-darwin.tar.xz"
+      sha256 "61032ccbbe4791203c678e990203da68288e3a7041d42fb7cecc26b921a85c07"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/hoffresearch/urna/releases/download/v0.5.4/urna-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "4263840f54b2865dcd74051f389d2d5e7dc55799be4a5601de5e8dda7872ce3b"
+      url "https://github.com/hoffresearch/urna/releases/download/v0.5.5/urna-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "ce5bb8076868c31187980808e606139dfcb1b0d322390b9ca4df652120e6eb7a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hoffresearch/urna/releases/download/v0.5.4/urna-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "6df332f46f2ddb9c4de27bb2772869418d453622ea9ea7f319a3d269ef6055db"
+      url "https://github.com/hoffresearch/urna/releases/download/v0.5.5/urna-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "5eed9ed0db132e778e4d6bbfb5fe8a8ea9743b1b9ea7d36cae631c7f4ea704c8"
     end
   end
   license "MIT"
